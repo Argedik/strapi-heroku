@@ -1,0 +1,35 @@
+{
+  "name": "strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.0",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/strapi": "4.11.4",
+    "better-sqlite3": "8.0.1",
+    "file-loader": "^6.2.0",
+    "pg": "^8.11.1",
+    "pg-connection-string": "^2.6.1",
+    "strapi": "latest",
+    "strapi-admin": "^3.6.11"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "73c6aab9-0f03-4b86-a2e9-20e6407b8d1b"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
